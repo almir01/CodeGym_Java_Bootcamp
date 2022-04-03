@@ -1,0 +1,15 @@
+public class Cat {
+
+    private String fullName;
+
+    public void setName(String firstName, String lastName) {
+    
+        String fullName = firstName + " " + lastName;
+
+        this.fullName = fullName;  // this line of code was added
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
