@@ -1,0 +1,14 @@
+public class Solution {
+    public static void main(String[] args) throws Exception {
+       
+       BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+        
+        String name = input.readLine();
+        String age = input.readLine();
+        int age1 = Integer.parseInt(age);
+        
+        if(age1 < 18) {
+            System.out.println("Grow up a little more");
+        }
+    }
+}
