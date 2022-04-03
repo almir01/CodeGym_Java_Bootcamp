@@ -1,0 +1,17 @@
+public class Cat {
+    private String name = "nameless cat";
+
+    public void setName(String name) {    
+        this.name = name;       //this line of code was added to make program work
+    }
+
+
+    public static void main(String[] args) {
+    
+        Cat cat = new Cat();
+        
+        cat.setName("Charlie");
+        
+        System.out.println(cat.name);
+    }
+}
